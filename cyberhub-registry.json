@@ -1,0 +1,303 @@
+{
+  "schema": 1,
+  "product": "CyberHub",
+  "repository": "cyberdeliaAI/CyberHub-Registry",
+  "generated_at": "2026-09-04T19:51:30+00:00",
+  "modules": [
+    {
+      "id": "gallery",
+      "name": "Gallery",
+      "summary": "Browse, search and manage local AI image collections.",
+      "version": "1.2.13",
+      "minimum_hub_version": "1.3.0",
+      "repository": "cyberdeliaAI/CyberHub-Gallery",
+      "publisher_type": "official",
+      "channel": "stable",
+      "dependencies": [],
+      "python_dependencies": [
+        "Pillow>=9.0",
+        "send2trash>=1.8",
+        "watchdog>=4.0"
+      ],
+      "asset": "cyberhub_module_gallery_v1.2.13.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Gallery/releases/download/v1.2.13/cyberhub_module_gallery_v1.2.13.zip",
+      "sha256": "b6eb3229da319ed5fc11d928abc1a74b83d0a89e6127feaa5ff2f7708b6b27fa",
+      "size": 65686
+    },
+    {
+      "id": "viewer",
+      "name": "Viewer",
+      "summary": "Open an image and inspect its generation metadata.",
+      "version": "1.1",
+      "minimum_hub_version": "1.3.0",
+      "repository": "cyberdeliaAI/CyberHub-Viewer",
+      "publisher_type": "official",
+      "channel": "stable",
+      "dependencies": [],
+      "python_dependencies": [
+        "Pillow>=9.0"
+      ],
+      "asset": "cyberhub_module_viewer_v1.1.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Viewer/releases/download/v1.1/cyberhub_module_viewer_v1.1.zip",
+      "sha256": "e6ef8617e3c041ba0a19deff29e8704fb35febecf4271bc325470d5aefffa527",
+      "size": 7459
+    },
+    {
+      "id": "compare",
+      "name": "Compare",
+      "summary": "Compare images side by side with a metadata difference view.",
+      "version": "1.0",
+      "minimum_hub_version": "1.3.0",
+      "repository": "cyberdeliaAI/CyberHub-Compare",
+      "publisher_type": "official",
+      "channel": "stable",
+      "dependencies": [
+        "gallery"
+      ],
+      "python_dependencies": [],
+      "asset": "cyberhub_module_compare_v1.0.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Compare/releases/download/v1.0/cyberhub_module_compare_v1.0.zip",
+      "sha256": "35fc9fb2ef9554db06581824d70452124539fbea27096d4083c02d640b548855",
+      "size": 5041
+    },
+    {
+      "id": "captioner",
+      "name": "Captioner",
+      "summary": "Create local image captions with an OpenAI-compatible vision model.",
+      "version": "1.5",
+      "minimum_hub_version": "1.3.0",
+      "repository": "cyberdeliaAI/CyberHub-Captioner",
+      "publisher_type": "official",
+      "channel": "stable",
+      "dependencies": [],
+      "python_dependencies": [
+        "requests>=2.28"
+      ],
+      "asset": "cyberhub_module_captioner_v1.5.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Captioner/releases/download/v1.5/cyberhub_module_captioner_v1.5.zip",
+      "sha256": "a57e35ab64993f23a03190413707fd52c1488adb341f83d37fc986572beab570",
+      "size": 24094
+    },
+    {
+      "id": "gallery_auto_tagger",
+      "name": "Auto Tagger",
+      "summary": "Add searchable visual AI tags to Gallery images with WD-EVA02.",
+      "version": "1.0.5",
+      "minimum_hub_version": "1.3.0",
+      "repository": "cyberdeliaAI/CyberHub-Auto-Tagger",
+      "publisher_type": "official",
+      "channel": "stable",
+      "dependencies": [
+        "gallery"
+      ],
+      "python_dependencies": [
+        "Pillow>=9.0",
+        "numpy>=1.24"
+      ],
+      "asset": "cyberhub_module_gallery_auto_tagger_v1.0.5.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Auto-Tagger/releases/download/v1.0.5/cyberhub_module_gallery_auto_tagger_v1.0.5.zip",
+      "sha256": "882ef1a40c4041bd0fb9cb2b7ecfbb0e4110c0d470bf8d1132097415ab5cd7d7",
+      "size": 23272
+    },
+    {
+      "id": "lora_info",
+      "name": "LoRA Info",
+      "summary": "Inspect LoRA Safetensors metadata, training tags, tensors and hashes.",
+      "version": "1.0.3",
+      "minimum_hub_version": "1.3.0",
+      "repository": "cyberdeliaAI/CyberHub-LoRA-Info",
+      "publisher_type": "official",
+      "channel": "stable",
+      "dependencies": [],
+      "python_dependencies": [],
+      "asset": "cyberhub_module_lora_info_v1.0.3.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-LoRA-Info/releases/download/v1.0.3/cyberhub_module_lora_info_v1.0.3.zip",
+      "sha256": "c5324021b2001cb229a43cb18f184f3f8d39006451bb005e945a78d97c12147d",
+      "size": 12845
+    },
+    {
+      "id": "civitai_browser",
+      "name": "Civitai Browser",
+      "summary": "Browse Civitai models and download selected model files locally.",
+      "version": "1.1.1-beta",
+      "minimum_hub_version": "1.3.0",
+      "repository": "cyberdeliaAI/CyberHub-Civitai-Browser",
+      "publisher_type": "official",
+      "channel": "beta",
+      "dependencies": [],
+      "python_dependencies": [
+        "requests>=2.28"
+      ],
+      "asset": "cyberhub_module_civitai_browser_v1.1.1-beta.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Civitai-Browser/releases/download/v1.1.1-beta/cyberhub_module_civitai_browser_v1.1.1-beta.zip",
+      "sha256": "57cf661506f87cabac7d8387504fb5162100f89d0b2ec13b2287ac793fe9e42c",
+      "size": 14673
+    },
+    {
+      "id": "civitai_grabber",
+      "name": "Civitai Grabber",
+      "summary": "Download Civitai images by creator, model, tag or model version.",
+      "version": "1.1.1",
+      "minimum_hub_version": "1.3.0",
+      "repository": "cyberdeliaAI/CyberHub-Civitai-Grabber",
+      "publisher_type": "official",
+      "channel": "stable",
+      "dependencies": [],
+      "python_dependencies": [
+        "httpx[http2]>=0.27",
+        "aiofiles>=22.0",
+        "tqdm>=4.66.5",
+        "tenacity>=8.2"
+      ],
+      "asset": "cyberhub_module_civitai_grabber_v1.1.1.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Civitai-Grabber/releases/download/v1.1.1/cyberhub_module_civitai_grabber_v1.1.1.zip",
+      "sha256": "d59c11c79699c8870bb61ae5efcddc011c708b5e7e132920c67b29d73526ffff",
+      "size": 45363
+    },
+    {
+      "id": "cropper",
+      "name": "Cropper",
+      "summary": "Crop and resize image datasets with batch navigation and presets.",
+      "version": "1.0",
+      "minimum_hub_version": "1.3.0",
+      "repository": "cyberdeliaAI/CyberHub-Cropper",
+      "publisher_type": "official",
+      "channel": "stable",
+      "dependencies": [],
+      "python_dependencies": [
+        "Pillow>=9.0"
+      ],
+      "asset": "cyberhub_module_cropper_v1.0.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Cropper/releases/download/v1.0/cyberhub_module_cropper_v1.0.zip",
+      "sha256": "7d035523835d9c4d824d95776fb6f0635e12bfec8d154408e9a91e900d02668f",
+      "size": 11118
+    },
+    {
+      "id": "danbooru",
+      "name": "Danbooru",
+      "summary": "Find Danbooru tags, build prompts and optionally tag images locally.",
+      "version": "1.0",
+      "minimum_hub_version": "1.3.0",
+      "repository": "cyberdeliaAI/CyberHub-Danbooru",
+      "publisher_type": "official",
+      "channel": "stable",
+      "dependencies": [],
+      "python_dependencies": [],
+      "asset": "cyberhub_module_danbooru_v1.0.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Danbooru/releases/download/v1.0/cyberhub_module_danbooru_v1.0.zip",
+      "sha256": "0db9c933478c6ed41c997552c23932bc51b445f29fad7d328c3ec25b81231bda",
+      "size": 126306563
+    },
+    {
+      "id": "amateur_photo",
+      "name": "Amateur Photo",
+      "summary": "Apply casual phone, film, webcam and snapshot aesthetics.",
+      "version": "1.0",
+      "minimum_hub_version": "1.3.0",
+      "repository": "cyberdeliaAI/CyberHub-Amateur-Photo",
+      "publisher_type": "official",
+      "channel": "stable",
+      "dependencies": [],
+      "python_dependencies": [
+        "Pillow>=9.0",
+        "numpy>=1.24",
+        "opencv-python-headless>=4.8"
+      ],
+      "asset": "cyberhub_module_amateur_photo_v1.0.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Amateur-Photo/releases/download/v1.0/cyberhub_module_amateur_photo_v1.0.zip",
+      "sha256": "d1c551ebe6fea8d06b36bac0e16a1b4073142fcd100b9afa7d7b856a9911c665",
+      "size": 15943
+    },
+    {
+      "id": "overlay",
+      "name": "Overlay",
+      "summary": "Add labels, metadata captions and watermarks to image batches.",
+      "version": "1.0",
+      "minimum_hub_version": "1.3.0",
+      "repository": "cyberdeliaAI/CyberHub-Overlay",
+      "publisher_type": "official",
+      "channel": "stable",
+      "dependencies": [],
+      "python_dependencies": [
+        "Pillow>=9.0"
+      ],
+      "asset": "cyberhub_module_overlay_v1.0.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Overlay/releases/download/v1.0/cyberhub_module_overlay_v1.0.zip",
+      "sha256": "b54006ec32357769dffd384f6fe350036f8700370e637d268a835503c52dbe1c",
+      "size": 12566
+    },
+    {
+      "id": "prompt_engineer",
+      "name": "Prompt Engineer",
+      "summary": "Build and rewrite image prompts with a local LM Studio model.",
+      "version": "1.2",
+      "minimum_hub_version": "1.3.0",
+      "repository": "cyberdeliaAI/CyberHub-Prompt-Engineer",
+      "publisher_type": "official",
+      "channel": "stable",
+      "dependencies": [],
+      "python_dependencies": [
+        "requests>=2.28"
+      ],
+      "asset": "cyberhub_module_prompt_engineer_v1.2.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Prompt-Engineer/releases/download/v1.2/cyberhub_module_prompt_engineer_v1.2.zip",
+      "sha256": "f7de35849335d410e61b1340ee8665dc46a5789b426dcbb987ef5b5096e1b63f",
+      "size": 70065
+    },
+    {
+      "id": "prompt_library",
+      "name": "Prompt Library",
+      "summary": "Save, organize and reuse prompts, presets, snippets and notes.",
+      "version": "1.0",
+      "minimum_hub_version": "1.3.0",
+      "repository": "cyberdeliaAI/CyberHub-Prompt-Library",
+      "publisher_type": "official",
+      "channel": "stable",
+      "dependencies": [],
+      "python_dependencies": [
+        "Pillow>=9.0"
+      ],
+      "asset": "cyberhub_module_prompt_library_v1.0.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Prompt-Library/releases/download/v1.0/cyberhub_module_prompt_library_v1.0.zip",
+      "sha256": "703d99e21810654e9b43cdb5ae26a2593f8ab760a14798f6058bd23e104cd3c0",
+      "size": 19426
+    },
+    {
+      "id": "tools",
+      "name": "Meta Copy Tool",
+      "summary": "Restore source metadata onto upscaled PNG files.",
+      "version": "1.0",
+      "minimum_hub_version": "1.3.0",
+      "repository": "cyberdeliaAI/CyberHub-Meta-Copy",
+      "publisher_type": "official",
+      "channel": "stable",
+      "dependencies": [],
+      "python_dependencies": [
+        "Pillow>=9.0"
+      ],
+      "asset": "cyberhub_module_tools_v1.0.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Meta-Copy/releases/download/v1.0/cyberhub_module_tools_v1.0.zip",
+      "sha256": "7e8f2ee02b057b8b00e07fa041eded4e665596b39a96ebe9e19c6782496c82c3",
+      "size": 12553
+    },
+    {
+      "id": "upscaler",
+      "name": "Upscaler",
+      "summary": "Upscale images locally with tiled ONNX Real-ESRGAN models.",
+      "version": "1.1.1-beta",
+      "minimum_hub_version": "1.3.0",
+      "repository": "cyberdeliaAI/CyberHub-Upscaler",
+      "publisher_type": "official",
+      "channel": "beta",
+      "dependencies": [],
+      "python_dependencies": [
+        "Pillow>=9.0",
+        "numpy>=1.24"
+      ],
+      "asset": "cyberhub_module_upscaler_v1.1.1-beta.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Upscaler/releases/download/v1.1.1-beta/cyberhub_module_upscaler_v1.1.1-beta.zip",
+      "sha256": "7e32c609c5399ad6183d83fbd482b9c98b4977b869709c44c431a40a302876bb",
+      "size": 62189848
+    }
+  ]
+}
