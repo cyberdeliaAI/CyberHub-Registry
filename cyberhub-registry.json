@@ -2,7 +2,7 @@
   "schema": 1,
   "product": "CyberHub",
   "repository": "cyberdeliaAI/CyberHub-Registry",
-  "generated_at": "2026-09-07T10:19:00+00:00",
+  "generated_at": "2026-09-09T14:29:49+00:00",
   "modules": [
     {
       "id": "gallery",
@@ -64,7 +64,7 @@
       "id": "captioner",
       "name": "Captioner",
       "summary": "Create local image captions with an OpenAI-compatible vision model.",
-      "version": "1.5",
+      "version": "1.6",
       "minimum_hub_version": "1.3.0",
       "repository": "cyberdeliaAI/CyberHub-Captioner",
       "publisher_type": "official",
@@ -73,10 +73,10 @@
       "python_dependencies": [
         "requests>=2.28"
       ],
-      "asset": "cyberhub_module_captioner_v1.5.zip",
-      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Captioner/releases/download/v1.5/cyberhub_module_captioner_v1.5.zip",
-      "sha256": "a57e35ab64993f23a03190413707fd52c1488adb341f83d37fc986572beab570",
-      "size": 24094
+      "asset": "cyberhub_module_captioner_v1.6.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Captioner/releases/download/v1.6/cyberhub_module_captioner_v1.6.zip",
+      "sha256": "e1bde83243320e94e8ab390aa83b6af064bfbef31e93d73e6ad7565499dda894",
+      "size": 29898
     },
     {
       "id": "gallery_auto_tagger",
