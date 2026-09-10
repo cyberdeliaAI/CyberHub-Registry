@@ -2,7 +2,7 @@
   "schema": 1,
   "product": "CyberHub",
   "repository": "cyberdeliaAI/CyberHub-Registry",
-  "generated_at": "2026-09-09T14:29:49+00:00",
+  "generated_at": "2026-09-10T14:39:56+00:00",
   "modules": [
     {
       "id": "gallery",
@@ -82,7 +82,7 @@
       "id": "gallery_auto_tagger",
       "name": "Auto Tagger",
       "summary": "Add searchable visual AI tags to Gallery images with WD-EVA02.",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "minimum_hub_version": "1.3.0",
       "repository": "cyberdeliaAI/CyberHub-Auto-Tagger",
       "publisher_type": "official",
@@ -94,10 +94,10 @@
         "Pillow>=9.0",
         "numpy>=1.24"
       ],
-      "asset": "cyberhub_module_gallery_auto_tagger_v1.0.5.zip",
-      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Auto-Tagger/releases/download/v1.0.5/cyberhub_module_gallery_auto_tagger_v1.0.5.zip",
-      "sha256": "882ef1a40c4041bd0fb9cb2b7ecfbb0e4110c0d470bf8d1132097415ab5cd7d7",
-      "size": 23272
+      "asset": "cyberhub_module_gallery_auto_tagger_v1.0.6.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Auto-Tagger/releases/download/v1.0.6/cyberhub_module_gallery_auto_tagger_v1.0.6.zip",
+      "sha256": "08171c01cfaffb092aedb531e54166c318a1be0265bbb154b87607e22f7f1f08",
+      "size": 24033
     },
     {
       "id": "lora_info",
