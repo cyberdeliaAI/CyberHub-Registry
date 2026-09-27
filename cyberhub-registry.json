@@ -2,7 +2,7 @@
   "schema": 1,
   "product": "CyberHub",
   "repository": "cyberdeliaAI/CyberHub-Registry",
-  "generated_at": "2026-09-25T11:47:43+00:00",
+  "generated_at": "2026-09-27T13:52:41+00:00",
   "modules": [
     {
       "id": "gallery",
@@ -64,7 +64,7 @@
       "id": "captioner",
       "name": "Captioner",
       "summary": "Create local image captions with an OpenAI-compatible vision model.",
-      "version": "1.6.1",
+      "version": "1.7.0",
       "minimum_hub_version": "1.3.0",
       "repository": "cyberdeliaAI/CyberHub-Captioner",
       "publisher_type": "official",
@@ -73,10 +73,10 @@
       "python_dependencies": [
         "requests>=2.28"
       ],
-      "asset": "cyberhub_module_captioner_v1.6.1.zip",
-      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Captioner/releases/download/v1.6.1/cyberhub_module_captioner_v1.6.1.zip",
-      "sha256": "87a7d5b9554f329da3c9ab1ed7dd6f77dd877314f8f0d67a6067dfe1761bd99b",
-      "size": 31808
+      "asset": "cyberhub_module_captioner_v1.7.0.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Captioner/releases/download/v1.7.0/cyberhub_module_captioner_v1.7.0.zip",
+      "sha256": "ddb86568c49e9d2d74bc53f63896e898ea1014fc94606697abda0bd4bda005f3",
+      "size": 33375
     },
     {
       "id": "gallery_auto_tagger",
@@ -230,7 +230,7 @@
       "id": "prompt_engineer",
       "name": "Prompt Engineer",
       "summary": "Build and rewrite image prompts with a local LM Studio model.",
-      "version": "1.2",
+      "version": "1.3.0",
       "minimum_hub_version": "1.3.0",
       "repository": "cyberdeliaAI/CyberHub-Prompt-Engineer",
       "publisher_type": "official",
@@ -239,10 +239,10 @@
       "python_dependencies": [
         "requests>=2.28"
       ],
-      "asset": "cyberhub_module_prompt_engineer_v1.2.zip",
-      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Prompt-Engineer/releases/download/v1.2/cyberhub_module_prompt_engineer_v1.2.zip",
-      "sha256": "f7de35849335d410e61b1340ee8665dc46a5789b426dcbb987ef5b5096e1b63f",
-      "size": 70065
+      "asset": "cyberhub_module_prompt_engineer_v1.3.0.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Prompt-Engineer/releases/download/v1.3.0/cyberhub_module_prompt_engineer_v1.3.0.zip",
+      "sha256": "c5b26719ea71396d1d31b834d71a9487c2e1a808a12593b412d4d7a8a643e3b2",
+      "size": 73547
     },
     {
       "id": "prompt_library",
