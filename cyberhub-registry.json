@@ -2,13 +2,13 @@
   "schema": 1,
   "product": "CyberHub",
   "repository": "cyberdeliaAI/CyberHub-Registry",
-  "generated_at": "2026-10-03T17:48:19+00:00",
+  "generated_at": "2026-10-06T13:30:05+00:00",
   "modules": [
     {
       "id": "gallery",
       "name": "Gallery",
       "summary": "Browse, search and manage local AI image collections.",
-      "version": "1.2.15",
+      "version": "1.2.16",
       "minimum_hub_version": "1.3.0",
       "repository": "cyberdeliaAI/CyberHub-Gallery",
       "publisher_type": "official",
@@ -19,10 +19,10 @@
         "send2trash>=1.8",
         "watchdog>=4.0"
       ],
-      "asset": "cyberhub_module_gallery_v1.2.15.zip",
-      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Gallery/releases/download/v1.2.15/cyberhub_module_gallery_v1.2.15.zip",
-      "sha256": "d52e36018e5bb9b53d8711517c0db4752544a17787d7aa3be2fd965bb0a7b197",
-      "size": 73285
+      "asset": "cyberhub_module_gallery_v1.2.16.zip",
+      "download_url": "https://github.com/cyberdeliaAI/CyberHub-Gallery/releases/download/v1.2.16/cyberhub_module_gallery_v1.2.16.zip",
+      "sha256": "327dbd6b0bbbcae565bf3a5c836d4258a029b8ef6b7f7eb54671948c9dd50aee",
+      "size": 74847
     },
     {
       "id": "viewer",
