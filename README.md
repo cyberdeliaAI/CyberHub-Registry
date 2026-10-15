@@ -3,7 +3,14 @@
 
 This repository contains the module list used by CyberHub Module Manager.
 
-CyberHub never checks this list automatically. A user must open Module Manager and click **Check for updates**. Every package is tied to a specific GitHub repository, release asset, file size and SHA-256 checksum.
+Checks are manual by default: open Module Manager and click **Check for updates**.
+Core 1.5.0 also offers optional startup notification checks, disabled by default;
+downloads and installation still require an explicit user action. Every package
+is tied to a specific GitHub repository, release asset, file size and SHA-256 checksum.
+
+The 15 October 2026 catalog adds notice/license patch packages for
+Danbooru 1.0.1 and Upscaler 1.1.2-beta. Do not publish this catalog until those
+exact module assets have been published and their downloaded hashes verified.
 
 ## Channels and Publishers
 
