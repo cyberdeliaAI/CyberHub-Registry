@@ -8,9 +8,10 @@ Core 1.5.0 also offers optional startup notification checks, disabled by default
 downloads and installation still require an explicit user action. Every package
 is tied to a specific GitHub repository, release asset, file size and SHA-256 checksum.
 
-The 15 October 2026 catalog adds notice/license patch packages for
-Danbooru 1.0.1 and Upscaler 1.1.2-beta. Do not publish this catalog until those
-exact module assets have been published and their downloaded hashes verified.
+The 21 October 2026 catalog updates Gallery to 1.2.17 with damaged-thumbnail
+cache repair. The public module ZIP was downloaded and its size/SHA-256 verified
+before the catalog update. The other 15 module entries remain unchanged, including
+Danbooru 1.0.1 and Upscaler 1.1.2-beta from the 15 October catalog.
 
 ## Channels and Publishers
 
